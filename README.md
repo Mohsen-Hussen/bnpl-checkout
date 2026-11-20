@@ -13,6 +13,8 @@ Installment math in integer halalas · Credit decision with a debt-burden check 
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**[▶ Live demo](https://mohsen-hussen.github.io/bnpl-checkout/)**
+
 <img src="docs/screenshots/checkout-plan.png" alt="Checkout: choosing an installment plan with a live repayment schedule" width="900" />
 
 </div>
@@ -106,6 +108,8 @@ Use the code **1234** on the verification step. Enter a low income (for example,
 | `npm run lint`      | Oxlint                              |
 | `npm run typecheck` | `tsc -b`                            |
 | `npm run format`    | Format with Prettier                |
+
+The live demo is deployed to GitHub Pages by [`pages.yml`](.github/workflows/pages.yml). It uses `BASE_PATH` for the sub-path and a `404.html` fallback for client-side routes.
 
 ## Testing
 
